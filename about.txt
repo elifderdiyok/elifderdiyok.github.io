@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elif Derdiyok | Hakkımda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flexbox">
+        <div class="one">
+
+            <div class="profil">ELİF</div>
+
+            <div class="profil"><img src="images/elif.png" alt="" id="img1"></div>
+
+            <div class="profil">DERDİYOK</div>
+        </div>
+
+        <div class="two">
+            <div>
+                <ul>
+                    <li><a  href="index.html">Galeri</a></li>
+                    <li><a   class="active" href="about.html">Hakkımda</a></li>
+                    <li><a  href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <h1 class="title">HAKKIMDA</h1>
+        <br>
+
+    </div>
+    <div class="flextext"> 
+        <div class="textp">
+            <p>
+                1999 Yılında Erzurum’da doğdum Rıfkı Salim Burçak lisesinde,
+                grafik tasarım ve fotoğrafçılık bölümünden mezun oldum.
+                2017 Yılında Atatürk Üniversitesi Grafik tasarım bölümünü
+                kazandım, 4. sınıf öğrencisi olarak öğrenim görmekteyim.
+                bir çok fotoğrafçı ve reklam ajanslarında çalıştım. çizim
+                yapmayı, tipografi, illüstrasyon, Realist ve Metaforik çalışmalar
+                yapmayı seviyorum. çünkü duygularımı bu şekilde dökebildiğimi
+                düşünüyorum.
+
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

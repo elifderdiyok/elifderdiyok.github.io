@@ -1,0 +1,160 @@
+.bgcolor{
+  background-color: rgb(255, 250, 240);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Ubuntu:ital@1&display=swap');
+
+.flexbox {
+  height: 14rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #eee;
+  background-color: white;
+  
+}
+
+.flexbox div {
+  width: 100%;
+
+
+}
+
+.one {
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+
+}
+
+.one>div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img1 {
+  width: 60%;
+  height: 10rem;
+}
+
+.two {
+  width: 2rem;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  border: 1px solid;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  width: 70%;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  letter-spacing: 5px;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.flextext {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.textp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.profil{
+  font-size: 24px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
